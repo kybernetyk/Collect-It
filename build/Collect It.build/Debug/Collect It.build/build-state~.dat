@@ -1,0 +1,470 @@
+TCollect It
+v7
+r0
+t273522666.717786
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Volumes/Work/Code/Collect It/English.lproj/MainMenu.xib"
+cCompileXIB "/Volumes/Work/Code/Collect It/CollectWindow.xib"
+cCpResource "build/Debug/Collect It.app/Contents/Resources/collectit.icns" collectit.icns
+cCompileXIB "/Volumes/Work/Code/Collect It/Preferences.xib"
+cCpResource "build/Debug/Collect It.app/Contents/Resources/Advanced.png" Advanced.png
+cCpResource "build/Debug/Collect It.app/Contents/Resources/General.png" General.png
+cCopyTiffFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/Updates.tiff" Updates.tiff
+cCpResource "build/Debug/Collect It.app/Contents/Resources/collectit2.icns" collectit2.icns
+cProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch.gch CollectIt_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/main.o" "/Volumes/Work/Code/Collect It/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/AppDelegate.o" "/Volumes/Work/Code/Collect It/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindowController.o" "/Volumes/Work/Code/Collect It/CollectWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/SackEntry.o" "/Volumes/Work/Code/Collect It/SackEntry.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindow.o" "/Volumes/Work/Code/Collect It/CollectWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItSession.o" "/Volumes/Work/Code/Collect It/CollectItSession.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/DBPrefsWindowController.o" "/Volumes/Work/Code/Collect It/DBPrefsWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItPrefsWindowController.o" "/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It" normal i386
+cTouch "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A0CC10E00000000000049C0
+t1242349838
+s18880
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Volumes/Work/Code/Collect It/Advanced.png
+c0000000048AAFC320000000000000CA9
+t1219165234
+s3241
+
+N/Volumes/Work/Code/Collect It/AppDelegate.h
+c000000004A637D2200000000000003CC
+t1248034082
+s972
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/AppDelegate.m
+c0000000048AB0C2D00000000000016BE
+t1219169325
+s5822
+i"AppDelegate.h"
+i"CollectWindowController.h"
+i"SackEntry.h"
+i"CollectItSession.h"
+i"CollectItPrefsWindowController.h"
+i<Carbon/Carbon.h>
+
+N/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.h
+c0000000048AAFC3200000000000001A3
+t1219165234
+s419
+i<Cocoa/Cocoa.h>
+i"DBPrefsWindowController.h"
+
+N/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m
+c0000000048AAFC3200000000000001C0
+t1219165234
+s448
+i"CollectItPrefsWindowController.h"
+
+N/Volumes/Work/Code/Collect It/CollectItSession.h
+c0000000048AAFC3200000000000001A6
+t1219165234
+s422
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/CollectItSession.m
+c0000000048AAFC3200000000000003D9
+t1219165234
+s985
+i"CollectItSession.h"
+
+N/Volumes/Work/Code/Collect It/CollectIt_Prefix.pch
+c0000000048AAFC320000000000000095
+t1219165234
+s149
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/CollectWindow.h
+c0000000048AAFC320000000000000110
+t1219165234
+s272
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/CollectWindow.m
+c0000000048AAFC3200000000000001F4
+t1219165234
+s500
+i"CollectWindow.h"
+
+N/Volumes/Work/Code/Collect It/CollectWindow.xib
+c0000000048AB031F00000000000074E9
+t1219167007
+s29929
+
+N/Volumes/Work/Code/Collect It/CollectWindowController.h
+c0000000048AAFC3200000000000002C9
+t1219165234
+s713
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/CollectWindowController.m
+c0000000048AAFC320000000000001249
+t1219165234
+s4681
+i"CollectWindowController.h"
+i"AppDelegate.h"
+i"SackEntry.h"
+i"CollectWindow.h"
+i"CollectItSession.h"
+
+N/Volumes/Work/Code/Collect It/DBPrefsWindowController.h
+c0000000048AAFC320000000000000B11
+t1219165234
+s2833
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/DBPrefsWindowController.m
+c0000000048AAFC3200000000000025D9
+t1219165234
+s9689
+i"DBPrefsWindowController.h"
+
+N/Volumes/Work/Code/Collect It/English.lproj/InfoPlist.strings
+c0000000048AAFC32000000000000005C
+t1219165234
+s92
+
+N/Volumes/Work/Code/Collect It/English.lproj/MainMenu.xib
+c0000000048AAFC320000000000013D0B
+t1219165234
+s81163
+
+N/Volumes/Work/Code/Collect It/General.png
+c0000000048AAFC320000000000000508
+t1219165234
+s1288
+
+N/Volumes/Work/Code/Collect It/Preferences.xib
+c0000000048AAFC320000000000004991
+t1219165234
+s18833
+
+N/Volumes/Work/Code/Collect It/SackEntry.h
+c0000000048AAFC320000000000000165
+t1219165234
+s357
+i<Cocoa/Cocoa.h>
+
+N/Volumes/Work/Code/Collect It/SackEntry.m
+c0000000048AAFC320000000000000305
+t1219165234
+s773
+i"SackEntry.h"
+
+N/Volumes/Work/Code/Collect It/Updates.tiff
+c0000000048AAFC3200000000000010C2
+t1219165234
+s4290
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/AppDelegate.o
+t1251829866
+s42416
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/Collect It.LinkFileList
+c000000004A9D68660000000000000399
+t1251829862
+s921
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItPrefsWindowController.o
+t1251829866
+s16564
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItSession.o
+t1251829866
+s11172
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindow.o
+t1251829866
+s13748
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindowController.o
+t1251829865
+s30212
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/DBPrefsWindowController.o
+t1251829866
+s46484
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/SackEntry.o
+t1251829866
+s10580
+
+N/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/main.o
+t1251829865
+s4836
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app
+t1251829866
+s102
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Info.plist
+t1236195760
+s1185
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It
+t1251829866
+s48324
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/PkgInfo
+t1236195760
+s8
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/Advanced.png
+t1236195760
+s3241
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/CollectWindow.nib
+t1236195760
+s8509
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1236195760
+s92
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/English.lproj/MainMenu.nib
+t1236195760
+s16805
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/General.png
+t1236195760
+s1288
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/Preferences.nib
+t1236195761
+s4986
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/Updates.tiff
+t1236195760
+s4290
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/collectit.icns
+t1236195760
+s119733
+
+N/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/collectit2.icns
+t1236195760
+s214912
+
+N/Volumes/Work/Code/Collect It/collectit.icns
+c0000000048AAFC32000000000001D3B5
+t1219165234
+s119733
+
+N/Volumes/Work/Code/Collect It/collectit2.icns
+c0000000048ADEC6E0000000000034780
+t1219357806
+s214912
+
+N/Volumes/Work/Code/Collect It/main.m
+c0000000048AAFC320000000000000107
+t1219165234
+s263
+i<Cocoa/Cocoa.h>
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch.gch
+t1251829865
+s54084016
+
+NInfo.plist
+c0000000048ADED2400000000000004BE
+t1219357988
+s1214
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies273522662#273522662#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/AppDelegate.o" "/Volumes/Work/Code/Collect It/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522665.629796
+e273522666.579699
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/AppDelegate.o
+x/Volumes/Work/Code/Collect It/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Volumes/Work/Code/Collect It/AppDelegate.m273522665#273522666#0(0"0(0#0#43"/Volumes/Work/Code/Collect It/AppDelegate.m4300882208#1437"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/AppDelegate.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/AppDelegate.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItPrefsWindowController.o" "/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522666.465879
+e273522666.605659
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItPrefsWindowController.o
+x/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m273522666#273522666#0(0"0(0#0#62"/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m4300882208#1475"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/CollectItPrefsWindowController.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItPrefsWindowController.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItSession.o" "/Volumes/Work/Code/Collect It/CollectItSession.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522666.140292
+e273522666.297968
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItSession.o
+x/Volumes/Work/Code/Collect It/CollectItSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Volumes/Work/Code/Collect It/CollectItSession.m273522666#273522666#0(0"0(0#0#48"/Volumes/Work/Code/Collect It/CollectItSession.m4300882208#1447"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/CollectItSession.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectItSession.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindow.o" "/Volumes/Work/Code/Collect It/CollectWindow.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522666.004695
+e273522666.140205
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindow.o
+x/Volumes/Work/Code/Collect It/CollectWindow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Volumes/Work/Code/Collect It/CollectWindow.m273522666#273522666#0(0"0(0#0#45"/Volumes/Work/Code/Collect It/CollectWindow.m4300882208#1441"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/CollectWindow.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindow.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindowController.o" "/Volumes/Work/Code/Collect It/CollectWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522665.735357
+e273522665.876041
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindowController.o
+x/Volumes/Work/Code/Collect It/CollectWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Volumes/Work/Code/Collect It/CollectWindowController.m273522665#273522665#0(0"0(0#0#55"/Volumes/Work/Code/Collect It/CollectWindowController.m4300882208#1461"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/CollectWindowController.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/CollectWindowController.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/DBPrefsWindowController.o" "/Volumes/Work/Code/Collect It/DBPrefsWindowController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522666.298056
+e273522666.465775
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/DBPrefsWindowController.o
+x/Volumes/Work/Code/Collect It/DBPrefsWindowController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Volumes/Work/Code/Collect It/DBPrefsWindowController.m273522666#273522666#0(0"0(0#0#55"/Volumes/Work/Code/Collect It/DBPrefsWindowController.m4300882208#1461"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/DBPrefsWindowController.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/DBPrefsWindowController.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/SackEntry.o" "/Volumes/Work/Code/Collect It/SackEntry.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522665.876142
+e273522666.004607
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/SackEntry.o
+x/Volumes/Work/Code/Collect It/SackEntry.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Volumes/Work/Code/Collect It/SackEntry.m273522665#273522666#0(0"0(0#0#41"/Volumes/Work/Code/Collect It/SackEntry.m4300882208#1433"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/SackEntry.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/SackEntry.o"0#
+
+CCompileC "build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/main.o" "/Volumes/Work/Code/Collect It/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522665.628794
+e273522665.735258
+r1
+xCompileC
+xbuild/Collect It.build/Debug/Collect It.build/Objects-normal/i386/main.o
+x/Volumes/Work/Code/Collect It/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Volumes/Work/Code/Collect It/main.m273522665#273522665#0(0"0(0#0#36"/Volumes/Work/Code/Collect It/main.m4300882208#1423"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch -c "/Volumes/Work/Code/Collect It/main.m" -o "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Volumes/Work/Code/Collect It/CollectWindow.xib"
+r0
+
+CCompileXIB "/Volumes/Work/Code/Collect It/English.lproj/MainMenu.xib"
+r0
+
+CCompileXIB "/Volumes/Work/Code/Collect It/Preferences.xib"
+r0
+
+CCopyStringsFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyTiffFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Resources/Updates.tiff" Updates.tiff
+r0
+
+CCpResource "build/Debug/Collect It.app/Contents/Resources/Advanced.png" Advanced.png
+r0
+
+CCpResource "build/Debug/Collect It.app/Contents/Resources/General.png" General.png
+r0
+
+CCpResource "build/Debug/Collect It.app/Contents/Resources/collectit.icns" collectit.icns
+r0
+
+CCpResource "build/Debug/Collect It.app/Contents/Resources/collectit2.icns" collectit2.icns
+r0
+
+CLd "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It" normal i386
+s273522666.605752
+e273522666.715449
+r1
+xLd
+x/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It
+xnormal
+xi386
+lSLF07#2@87"Link /Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It273522666#273522666#0(0"0(0#0#0"4300882208#536"    cd "/Volumes/Work/Code/Collect It"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Volumes/Work/Code/Collect It/build/Debug" "-F/Volumes/Work/Code/Collect It/build/Debug" -filelist "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Objects-normal/i386/Collect It.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Carbon -o "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/MacOS/Collect It"0#
+
+CProcessInfoPlistFile "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app/Contents/Info.plist" Info.plist
+r0
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch.gch CollectIt_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s273522662.990863
+e273522665.628574
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch.gch
+xCollectIt_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile CollectIt_Prefix.pch273522662#273522665#0(0"0(0#0#50"/Volumes/Work/Code/Collect It/CollectIt_Prefix.pch4300882208#1334"    cd "/Volumes/Work/Code/Collect It"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-generated-files.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-own-target-headers.hmap" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-all-target-headers.hmap" -iquote "/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/Collect It-project-headers.hmap" "-F/Volumes/Work/Code/Collect It/build/Debug" "-I/Volumes/Work/Code/Collect It/build/Debug/include" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources/i386" "-I/Volumes/Work/Code/Collect It/build/Collect It.build/Debug/Collect It.build/DerivedSources" -c "/Volumes/Work/Code/Collect It/CollectIt_Prefix.pch" -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CollectIt_Prefix-cajxgclzldvdnhfikctpmxmdqtsj/CollectIt_Prefix.pch.gch0#
+
+CTouch "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app"
+s273522666.715545
+e273522666.717751
+r1
+xTouch
+x/Volumes/Work/Code/Collect It/build/Debug/Collect It.app
+lSLF07#2@62"Touch /Volumes/Work/Code/Collect It/build/Debug/Collect It.app273522666#273522666#0(0"0(0#0#0"4300882208#120"    cd "/Volumes/Work/Code/Collect It"    /usr/bin/touch -c "/Volumes/Work/Code/Collect It/build/Debug/Collect It.app"0#
+
